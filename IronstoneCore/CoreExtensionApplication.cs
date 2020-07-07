@@ -102,7 +102,8 @@ namespace Jpp.Ironstone.Core
         /// </summary>
         public event EventHandler<Document> Civil3DTagWarning;
 
-        public UnityContainer Container { get; set; }
+        //public UnityContainer Container { get; set; }
+        public IServiceProvider Container { get; set; }
 
         #endregion
 
